@@ -58,7 +58,7 @@ const handleChange = (e) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className='form-container'>
       <div>
         <label>Full Name:</label>
         <input
