@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addFormData } from '../redux/formSlice';
@@ -58,8 +57,8 @@ const handleChange = (e) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
+    <form onSubmit={handleSubmit} className='form-container'>
+      <div  >
         <label>Full Name:</label>
         <input
           type="text"

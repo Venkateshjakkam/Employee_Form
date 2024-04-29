@@ -4,7 +4,7 @@ import FormComponent from './components/FormComponent';
 const App = () => {
   return (
     <div>
-      <h1>Student Application Form </h1>
+      <h1 style={{marginLeft:'450px'}}>Student Application Form </h1>
       <FormComponent />
     </div>
   );
